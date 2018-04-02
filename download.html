@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>借把伞官网-下载</title>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/common/reset.css">
+	<link rel="stylesheet" href="css/common/global.css">
+	<link rel="stylesheet" href="css/common/swiper-3.4.2.min.css">
+	<link rel="stylesheet" href="css/download.css">
+</head>
+<body>
+	<div id="page">
+		<div id="hd">
+			<div id="banner">
+				<div class="wp por">
+					<div class="m-box poa">
+						<div class="QRcode">
+							<img src="images/QRcode.png" alt="">
+							<p>微信扫描关注<br>借把伞公众号</p>
+						</div>
+						<div class="btn apple"><a href=""><img src="images/down_apple.png" alt=""></a></div>
+						<div class="btn android"><a href=""><img src="images/down_android.png" alt=""></a></div>
+					</div>
+				</div>
+			</div>
+			<div id="nav">
+				<div class="wp clearfix">
+					<div class="logo">
+						<a href="cooperate.html"><img src="images/logo_red.png" alt=""><span>借把伞</span></a>
+					</div>
+					<ul class="ul-nav">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="about.html">关于我们</a></li>
+						<li><a href="cooperate.html">合作模式</a></li>
+						<li><a href="join.html">加入我们</a></li>
+						<li class="on"><a href="download.html">下载/关注</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="bd">
+			<div class="use-method">
+				<h3>使用方法</h3>
+				<ul class="ul-step">
+					<li>
+						<div class="img"><img src="images/down_img1.png" alt=""></div>
+						<div class="text">
+							<h4>1.地图寻伞</h4>
+							<p>下载「借把伞」App或关注<br>「借把伞」微信公众号，<br>通过地图寻找附近伞点。</p>
+						</div>
+					</li>
+					<li>
+						<div class="img"><img src="images/down_img2.png" alt=""></div>
+						<div class="text">
+							<h4>2.开锁借伞</h4>
+							<p>扫描伞桩上二维码或手动输入编号，<br>待锁开启后即可手动从取伞口取伞，<br>取伞后订单生成。</p>
+						</div>
+					</li>
+					<li>
+						<div class="img"><img src="images/down_img3.png" alt=""></div>
+						<div class="text">
+							<h4>3.手动还伞</h4>
+							<p>还伞时不需要打开应用，手动将伞插入还伞 口推入滑道即可结束计费。</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="swiperWrap">
+				<div class="wp">
+					<div class="textWrap">
+						<div class="left">
+							<dl class="up">
+								<dt>雨伞外观时尚</dt>
+								<dd>雨伞时尚前卫，撑起它为城市增添一抹靓色。</dd>
+							</dl>
+							<dl>
+								<dt>伞桩符合用户取用习惯</dt>
+								<dd>智能伞桩依据人体工程学设计，符合用户使用习惯，易取易还。</dd>
+							</dl>
+						</div>
+						<div class="right">
+							<dl class="up">
+								<dt>APP体验极佳</dt>
+								<dd>手机APP界面精美简洁，使用顺滑流畅，操作简便。</dd>
+							</dl>
+							<dl>
+								<dt>强大的技术支持</dt>
+								<dd>依托物联网、大数据技术、雨伞信息实时更新，周围伞桩、伞桩内可用雨伞数量，一目了然</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="swiper-container">
+					    <div class="swiper-wrapper">
+					        <div class="swiper-slide"><img src="images/down_slide1.png" alt=""></div>
+					        <div class="swiper-slide"><img src="images/down_slide2.png" alt=""></div>
+					        <div class="swiper-slide"><img src="images/down_slide3.png" alt=""></div>
+					        <div class="swiper-slide"><img src="images/down_slide4.png" alt=""></div>
+					    </div>
+					    <!-- 如果需要分页器 -->
+					    <div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="fd">
+			<div class="logo"><img src="images/logo-fd.png" alt=""></div>
+			<div class="comp-info">
+				<p>南京借把伞信息技术服务有限公司<span></span>www.jiebasan.com<span></span>400-0272700<span></span>jiebasan@njjiebasan.com</p>
+				<p>苏ICP备17031702号</p>
+			</div>
+		</div>
+	</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/swiper-3.4.2.jquery.min.js"></script>
+<script>
+	$(function() {
+		var mySwiper = new Swiper ('.swiper-container', {
+			loop: true,
+			autoplay : 3000,
+			speed:500,
+			paginationClickable: true,
+			// 如果需要分页器
+			pagination: '.swiper-pagination',
+		})
+	});
+</script>
+</body>
+</html>

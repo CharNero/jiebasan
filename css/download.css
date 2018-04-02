@@ -1,0 +1,108 @@
+#banner{
+	background-image: url(../images/banner_download.png);
+}
+
+#banner .m-box{
+	top: 200px;
+	left: 20px;
+	width: 225px;
+	text-align: center;
+}
+#banner .m-box p{
+	margin: 10px 0 30px;
+	font-size: 24px;
+	color: #fff;
+	line-height: 1.2;
+}
+#banner .m-box .btn{
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.use-method{
+	margin-bottom: 60px;
+}
+.use-method h3{
+	margin: 65px 0 70px;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+.use-method .ul-step{
+	text-align: center;
+}
+.use-method .ul-step li{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 420px;
+	vertical-align: top;
+}
+.use-method .ul-step li h4{
+	margin: 30px 0 20px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #ff6654;
+}
+.use-method .ul-step li p{
+	font-size: 16px;
+	color: #999;
+	line-height: 1.8;
+}
+
+.swiperWrap{
+	position: relative;
+	margin-bottom: 55px;
+}
+.swiperWrap .textWrap{
+	position: absolute;
+	top: 115px;
+}
+.swiperWrap .textWrap .left{
+	width: 325px;
+	margin-right: 385px;
+	margin-left: 45px;
+	text-align: right;
+}
+.swiperWrap .textWrap .right{
+	width: 370px;
+	text-align: left;
+}
+.swiperWrap .textWrap dl{
+	margin-bottom: 115px;
+}
+.swiperWrap .textWrap dt{
+	margin-bottom: 15px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+}
+.swiperWrap .textWrap dd{
+	font-size: 16px;
+	color: #999;
+	line-height: 1.8;
+}
+
+
+
+.swiperWrap .swiper-container{
+	margin: 0 auto;
+	width: 336px;
+	height: 625px;
+	overflow: hidden;
+}
+.swiperWrap .swiper-container img{
+	display: block;
+	margin: 0 auto;
+}
+.swiper-pagination-bullet{
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	-webkit-transition: width .7s;
+	transition: width .7s;
+}
+.swiper-pagination-bullet-active{
+	width: 22px;
+	background: #7d7d7d;
+}

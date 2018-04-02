@@ -1,0 +1,55 @@
+#banner{
+	background-image: url(../images/banner_join.png);
+}
+#banner .ban-text{
+	margin: 0 auto;
+	padding-top: 275px;
+	font-size: 52px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.2;
+	color: #fff;
+}
+
+.ul-list{
+	margin: 75px 0 80px;
+	font-size: 0;
+	text-align: center;
+	overflow: hidden;
+}
+.ul-list li{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 335px;
+	text-align: center;
+	vertical-align: top;
+}
+.ul-list li dl dt{
+	font-size: 24px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+.ul-list li dl dd{
+	font-size: 16px;
+	line-height: 3;
+	color: #999;
+}
+
+.deliver{
+	margin-bottom: 65px;
+	text-align: center;
+}
+.deliver h3{
+	margin:0 auto 25px;
+	width: 178px;
+	height: 58px;
+	line-height: 58px;
+	border: 1px solid #ff6654;
+	border-radius: 29px;
+	font-size: 24px;
+}
+.deliver p{
+	color: #666;
+	font-size: 16px;
+}

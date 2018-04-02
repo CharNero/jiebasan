@@ -1,0 +1,85 @@
+.ml75{
+	margin-left: 75px;
+}
+
+
+
+
+#banner{
+	background-image: url(../images/banner_about.png);
+}
+#banner .ban-text{
+	margin: 0 auto;
+	padding-top: 355px;
+	font-size: 52px;
+	text-align: center;
+	color: #fff;
+}
+
+
+.ul-list li{
+	margin-top: 120px;
+	text-align: center;
+}
+.ul-list li h3{
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.ul-list li .content p{
+	width: 610px;
+	color: #999;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0 auto;
+}
+.ul-list li .content .block{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: top;
+}
+.ul-list li .content .block h6{
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+.ul-list li .content .block.app img{
+	width: 190px;
+	margin-top: -22px;
+}
+.ul-list li .content .step{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 195px;
+	margin-top: 165px;
+}
+.ul-list li .content .step .arrow{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin-top: 25px;
+	width: 26px;
+	height: 23px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.ul-list li .content .step .arrow-l{
+	float: left;
+	background-image: url(../images/arrow_l.png);
+}
+.ul-list li .content .step .arrow-r{
+	float: right;
+	background-image: url(../images/arrow_r.png);
+}
+.ul-list li .content .step .labWrap{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+.ul-list li .content .step span{
+	display: block;
+	font-size: 16px;
+	color: #999;
+	line-height: 1.5;
+}

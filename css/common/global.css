@@ -1,0 +1,116 @@
+html,body{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #333;
+	overflow-x: hidden;
+}
+
+.por{position: relative;}
+.poa{position: absolute;}
+.fl,.left{float: left;}
+.fr,.right{float: right;}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+
+
+.wp{
+	width: 1135px;
+	margin: 0 auto;
+}
+
+#page{
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+#hd #banner{
+	max-width: 100%;
+	height: 635px;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#hd #nav{
+	font-size: 18px;
+	box-shadow: 0 5px 8px 2px #efefef;
+}
+#hd #nav .wp{
+	padding: 12.5px 0;
+	height: 52px;
+}
+#nav .logo{
+	float: left;
+	margin-top: 10px;
+}
+#nav .logo span{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin-top: -10px;
+	margin-left: 20px;
+	line-height: 52px;
+	vertical-align: top;
+	color: #333;
+}
+#nav .ul-nav{
+	float: right;
+	margin-top: 5px;
+}
+#nav .ul-nav li{
+	float: left;
+	margin: 0 8px;
+	padding: 0 25px;
+	height: 42px;
+	font-size: 16px;
+	line-height: 42px;
+	cursor: pointer;
+}
+#nav .ul-nav li a{
+	display:block;
+	width: 100%;
+	height: 100%;
+	color: #333;
+	text-decoration: none;
+}
+#nav .ul-nav li.on a,
+#nav .ul-nav li:hover a{
+	color: #ff6654;
+}
+#nav .ul-nav li:last-child{
+	background: #ff6654;
+	color: #fff;
+	border-radius: 21px;
+	-webkit-transition: background .7s;
+	transition: background .7s;
+}
+#nav .ul-nav li:last-child:hover{
+	background: #EC4B38;
+}
+#nav .ul-nav li:last-child a{
+	color: #fff;
+}
+
+
+
+#fd{
+	min-height: 210px;
+	padding-top: 50px;
+	background: #ff6654;
+	text-align: center;
+	color: #fff;
+}
+#fd .logo{
+	margin-bottom: 10px;
+}
+#fd .comp-info p{
+	font-size: 12px;
+	line-height: 3;
+}
+#fd .comp-info span{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin: -3px 10px;
+	width: 14px;
+	height: 14px;
+	background: url(../../images/fd_line.png) no-repeat left center;
+}
